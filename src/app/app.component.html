@@ -1,0 +1,9 @@
+<form [formGroup]="form">
+  <input type="text" formControlName="name" />
+</form>
+
+<pre>{{ getList() | async | json }}</pre>
+
+<pre>{{ getNumbers$() | async | json }}</pre>
+
+<pre>FLAG: {{ flag }}</pre>
